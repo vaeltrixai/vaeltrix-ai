@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VaeltrixAI &#x2014; by VaeltrixLabs</title>
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#D97757">
+<meta name="theme-color" content="#00A8FF">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="VaeltrixAI">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23F0A87E'/%3E%3Cstop offset='1' stop-color='%23B8563A'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='%23141413'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17.3 4.6c.9.9 2.1 2.1 3.1 3.1l4.6 4.6c.6.6.9 1.4.9 2.2v3.2c0 .8-.3 1.6-.9 2.2l-7.7 7.7c-.6.6-1.4.9-2.2.9h-3.2c-.8 0-1.6-.3-2.2-.9l-7.7-7.7c-.6-.6-.9-1.4-.9-2.2v-3.2c0-.8.3-1.6.9-2.2l7.7-7.7c.6-.6 1.4-.9 2.2-.9h3.2c.8 0 1.6.3 2.2.9zM16 9.6c-1.4-1.4-3.7-1.4-5.1 0l-3.3 3.3c-1.4 1.4-1.4 3.7 0 5.1l3.3 3.3c1.4 1.4 3.7 1.4 5.1 0l3.3-3.3c1.4-1.4 1.4-3.7 0-5.1z' fill='url(%23g)'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300E0FF'/%3E%3Cstop offset='1' stop-color='%230057FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='%23050810'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17.3 4.6c.9.9 2.1 2.1 3.1 3.1l4.6 4.6c.6.6.9 1.4.9 2.2v3.2c0 .8-.3 1.6-.9 2.2l-7.7 7.7c-.6.6-1.4.9-2.2.9h-3.2c-.8 0-1.6-.3-2.2-.9l-7.7-7.7c-.6-.6-.9-1.4-.9-2.2v-3.2c0-.8.3-1.6.9-2.2l7.7-7.7c.6-.6 1.4-.9 2.2-.9h3.2c.8 0 1.6.3 2.2.9zM16 9.6c-1.4-1.4-3.7-1.4-5.1 0l-3.3 3.3c-1.4 1.4-1.4 3.7 0 5.1l3.3 3.3c1.4 1.4 3.7 1.4 5.1 0l3.3-3.3c1.4-1.4 1.4-3.7 0-5.1z' fill='url(%23g)'/%3E%3C/svg%3E">
 <meta name="description" content="Try VaeltrixAI to build playable multiplayer and 3D games, create consulting grade slides, and run parallel tasks with Swarm and Goal to get more work done." />
 <meta name="keywords" content="VaeltrixAI, VaeltrixCode, visual coding, agent swarm, office, PPT, slides, presentation, VaeltrixLabs, deep research, Excel, PDF, Word, websites" />
 <link href="assets/css/css2" rel="stylesheet">
@@ -46,7 +46,7 @@
   <div class="applock-sub"><b>Masukkan PIN Kamu Untuk Membuka VaeltrixAI, Tuan.</b></div>
   <input type="password" inputmode="numeric" maxlength="6" class="applock-input" id="applock-input" placeholder="••••••" autocomplete="off" onkeydown="if(event.key==='Enter') tryUnlockApp()">
   <div class="modal-error" id="applock-error" style="min-height:16px;"></div>
-  <button class="modal-activate-btn" style="width:200px;background:var(--blue);color:#2A1408;" onclick="tryUnlockApp()"><b>BUKA</b></button>
+  <button class="modal-activate-btn" style="width:200px;background:var(--blue);color:#04121f;" onclick="tryUnlockApp()"><b>BUKA</b></button>
 </div>
 
 <!-- Sidebar -->
@@ -386,19 +386,10 @@
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
     </div>
 
-    <div class="attach-menu-feature-row" onclick="startProjectFlow()" style="cursor:pointer;">
-      <span class="attach-menu-feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></span>
-      <div class="attach-menu-feature-text">
-        <div class="attach-menu-feature-title"><b>Buat Proyek</b></div>
-        <div class="attach-menu-feature-desc"><b>Bikin Aplikasi/Website Multi-File, Unduh Satuan Atau ZIP</b></div>
-      </div>
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-    </div>
-
     <div class="attach-menu-feature-row">
       <span class="attach-menu-feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="1" y1="1" x2="23" y2="23"/><path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.58 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg></span>
       <div class="attach-menu-feature-text">
-        <div class="attach-menu-feature-title"><b>VaeltrixAI Offline Mode</b> <span style="font-size:9.5px;background:var(--gold-dim);color:var(--gold);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid var(--gold-border);"><b>PREMIUM</b></span> <span class="beta-badge" style="display:none;font-size:9.5px;background:var(--blue-dim);color:var(--blue);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid rgba(217,119,87,0.3);"><b>BETA</b></span></div>
+        <div class="attach-menu-feature-title"><b>VaeltrixAI Offline Mode</b> <span style="font-size:9.5px;background:var(--gold-dim);color:var(--gold);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid var(--gold-border);"><b>PREMIUM</b></span> <span class="beta-badge" style="display:none;font-size:9.5px;background:var(--blue-dim);color:var(--blue);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid rgba(0,168,255,0.3);"><b>BETA</b></span></div>
         <div class="attach-menu-feature-desc"><b>Chat AI Tanpa Koneksi Internet &amp; Mode Offline</b></div>
       </div>
       <label class="vx-toggle">
@@ -410,7 +401,7 @@
     <div class="attach-menu-feature-row" onclick="tryDeepResearch()" style="cursor:pointer;">
       <span class="attach-menu-feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><path d="M11 8v3l2 2"/></svg></span>
       <div class="attach-menu-feature-text">
-        <div class="attach-menu-feature-title"><b>Deep Research</b> <span style="font-size:9.5px;background:var(--gold-dim);color:var(--gold);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid var(--gold-border);"><b>PREMIUM</b></span> <span class="beta-badge" style="display:none;font-size:9.5px;background:var(--blue-dim);color:var(--blue);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid rgba(217,119,87,0.3);"></span></div>
+        <div class="attach-menu-feature-title"><b>Deep Research</b> <span style="font-size:9.5px;background:var(--gold-dim);color:var(--gold);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid var(--gold-border);"><b>PREMIUM</b></span> <span class="beta-badge" style="display:none;font-size:9.5px;background:var(--blue-dim);color:var(--blue);padding:1px 7px;border-radius:20px;margin-left:2px;border:1px solid rgba(0,168,255,0.3);"></span></div>
         <div class="attach-menu-feature-desc"><b>Riset &amp; Analisis Mendalam Multi-Sudut Pakai Model Pro</b></div>
       </div>
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
@@ -688,7 +679,7 @@
     <input type="password" inputmode="numeric" maxlength="6" class="modal-input" id="pin-input-1" placeholder="PIN Baru (4-6 Digit)" style="border-color:var(--glass-border);">
     <input type="password" inputmode="numeric" maxlength="6" class="modal-input" id="pin-input-2" placeholder="Ulangi PIN" style="border-color:var(--glass-border);">
     <div class="modal-error" id="pin-modal-error"></div>
-    <button class="modal-activate-btn" style="background:var(--blue);color:#2A1408;" onclick="savePinSecurity()">SIMPAN PIN</button>
+    <button class="modal-activate-btn" style="background:var(--blue);color:#04121f;" onclick="savePinSecurity()">SIMPAN PIN</button>
     <button class="modal-cancel" id="pin-remove-btn" style="display:none;color:#ff8080;" onclick="removePinSecurity()">Matikan PIN</button>
     <button class="modal-cancel" onclick="closePinModal()">Batal</button>
   </div>
@@ -703,7 +694,7 @@
     <div class="modal-sub">Ada Saran, Bug, Atau Kritik Buat VaeltrixAI? Tulis Di Sini, Tuan.</div>
     <textarea id="feedback-input" placeholder="Tulis Masukan Kamu..." rows="4" style="width:100%;background:rgba(0,0,0,0.4);border:1px solid var(--glass-border);color:var(--white);font-family:'DM Sans',sans-serif;font-size:13px;padding:12px 14px;border-radius:12px;outline:none;resize:vertical;margin-bottom:10px;"></textarea>
     <div class="modal-error" id="feedback-error"></div>
-    <button class="modal-activate-btn" style="background:var(--blue);color:#2A1408;" onclick="sendFeedback()">KIRIM FEEDBACK</button>
+    <button class="modal-activate-btn" style="background:var(--blue);color:#04121f;" onclick="sendFeedback()">KIRIM FEEDBACK</button>
     <button class="modal-cancel" onclick="closeFeedbackModal()">Batal</button>
   </div>
 </div>
@@ -1095,17 +1086,6 @@
   </div>
 </div>
 
-<!-- Vaeltrix Project Panel — "N Artefak" (proyek multi-file, tampil kalau 1 jawaban punya >=2 file bernama) -->
-<div class="vx-sheet-backdrop" id="project-panel-backdrop" role="dialog" aria-modal="true" aria-label="Artefak" onclick="if(event.target===this) closeProjectPanel()">
-  <div class="vx-sheet" style="position:relative;">
-    <button class="vx-close-x" onclick="closeProjectPanel()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
-    <div class="vx-sheet-title"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg> Artefak</div>
-    <div class="vx-sheet-sub" id="project-panel-count">Beberapa File Dari Jawaban Ini.</div>
-    <div id="artefak-files-list"></div>
-    <button class="artefak-download-all-btn" id="project-download-all-btn" onclick="downloadAllProjectFiles()"><b>Unduh Semua (ZIP)</b></button>
-  </div>
-</div>
-
 <!-- Vaeltrix Artifact Panel (Editor + Live Preview) -->
 <div id="artifact-panel" role="dialog" aria-modal="true" aria-label="Vaeltrix Artifact">
   <div class="artifact-panel-header">
@@ -1168,12 +1148,12 @@
         <p class="onboard-sub">Satu App, Beberapa Model AI — Buat Ngobrol, Bikin Gambar, Sampe Bantuin Kerjaan Coding Kamu.</p>
         <div class="onboard-feature-grid">
           <div class="onboard-card">
-            <div class="onboard-card-icon" style="background:linear-gradient(135deg,#F0A87E,#B8563A);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+            <div class="onboard-card-icon" style="background:linear-gradient(135deg,#00E0FF,#0057FF);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
             <div class="onboard-card-title">Obrolan Cerdas</div>
             <div class="onboard-card-desc">4 Model AI Siap Bantu</div>
           </div>
           <div class="onboard-card">
-            <div class="onboard-card-icon" style="background:linear-gradient(135deg,#B8563A,#8C4A2F);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+            <div class="onboard-card-icon" style="background:linear-gradient(135deg,#0057FF,#00C2A8);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
             <div class="onboard-card-title">Pembuatan Gambar</div>
             <div class="onboard-card-desc">Teks Jadi Visual</div>
           </div>
@@ -1190,7 +1170,7 @@
     <!-- Slide 1 — Obrolan AI Cerdas -->
     <div class="onboard-slide" data-slide="1">
       <div class="onboard-body">
-        <div class="onboard-icon-circle" style="background:linear-gradient(135deg,#D97757,#B8563A);"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <div class="onboard-icon-circle" style="background:linear-gradient(135deg,#00A8FF,#0057FF);"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <h1 class="onboard-title">Percakapan AI Cerdas</h1>
         <p class="onboard-sub">Ngobrol Sama Model AI Yang Paham Konteks Obrolan Kamu — Dari Yang Santai Sampe Yang Serius.</p>
         <div class="onboard-demo-box">
@@ -1204,7 +1184,7 @@
     <!-- Slide 2 — Pembuatan Gambar AI -->
     <div class="onboard-slide" data-slide="2">
       <div class="onboard-body">
-        <div class="onboard-icon-circle" style="background:linear-gradient(135deg,#8C4A2F,#B8563A);"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <div class="onboard-icon-circle" style="background:linear-gradient(135deg,#00C2A8,#0057FF);"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
         <h1 class="onboard-title">Pembuatan Gambar AI</h1>
         <p class="onboard-sub">Ubah Deskripsi Teks Kamu Jadi Gambar — Tinggal Ketik, Vaeltrix Yang Gambarin.</p>
         <div class="onboard-demo-box">
