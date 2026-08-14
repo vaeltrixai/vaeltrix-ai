@@ -1,5 +1,18 @@
 # VaeltrixAI
+<div align="center">
+  <img src="./app_logo.jpeg" alt="VaeltrixAI Logo" width="120" style="border-radius: 20px;">
+  <h1>VaeltrixAI</h1>
+  <p><strong>AI Assistant yang Powerful, Ringan, dan Bisa Dipasang di Homescreen 📱</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/PWA-Ready-5A0FC8?logo=pwa&logoColor=white" alt="PWA">
+    <img src="https://img.shields.io/badge/Vanilla-JS-F7DF1E?logo=javascript&logoColor=black" alt="Vanilla JS">
+    <img src="https://img.shields.io/badge/Mobile-First-FF6B6B?logo=android&logoColor=white" alt="Mobile First">
+    <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-3CB371" alt="Open Source">
+  </p>
+  <p><em>Built with ❤️ by RajaCoders × VaeltrixLabs</em></p>
+</div>
 
+---
 **AI Assistant yang Powerful, Ringan, Modular, dan Bisa Dipasang di Homescreen 📱**
 
 *Built with ❤️ by RajaCoders × VaeltrixLabs*
