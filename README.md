@@ -13,11 +13,6 @@
 </div>
 
 ---
-**AI Assistant yang Powerful, Ringan, Modular, dan Bisa Dipasang di Homescreen 📱**
-
-*Built with ❤️ by RajaCoders × VaeltrixLabs*
-
----
 
 ## 🚀 Apa itu VaeltrixAI?
 
