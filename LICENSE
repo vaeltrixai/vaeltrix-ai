@@ -1,0 +1,104 @@
+MIT License
+
+Copyright (c) 2025-2026 RajaCoders × VaeltrixLabs
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+                              ADDITIONAL NOTES
+================================================================================
+
+Project      : VaeltrixAI
+Organization : VaeltrixLabs
+Author       : RajaCoders
+Repository   : https://github.com/vaeltrixai/vaeltrix-ai
+License Type : MIT License (Open Source)
+
+This software is released under the MIT License, one of the most permissive
+open-source licenses available. You are free to:
+
+  • Use the software for personal or commercial purposes
+  • Modify the source code
+  • Distribute original or modified versions
+  • Sublicense the software
+  • Sell copies of the software
+
+The only requirement is that the original copyright notice and this permission
+notice must be included in all copies or substantial portions of the Software.
+
+--------------------------------------------------------------------------------
+DISCLAIMER
+--------------------------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+The authors and copyright holders are not liable for any claim, damages, or
+other liability arising from the use of this software.
+
+This includes, but is not limited to:
+  - Fitness for a particular purpose
+  - Merchantability
+  - Non-infringement of third-party rights
+  - Any damages resulting from use, misuse, or inability to use the software
+
+--------------------------------------------------------------------------------
+THIRD-PARTY SERVICES & API KEYS
+--------------------------------------------------------------------------------
+
+VaeltrixAI may integrate with third-party AI providers and services
+(including but not limited to Google Gemini, Groq, Pollinations, Tavily,
+ElevenLabs, and WebLLM). 
+
+Users are solely responsible for:
+  - Obtaining and managing their own API keys
+  - Complying with the terms of service of those third-party providers
+  - Any costs or usage limits associated with those services
+
+The authors of VaeltrixAI do not provide, guarantee, or take responsibility
+for any third-party API keys, services, or their availability.
+
+--------------------------------------------------------------------------------
+TRADEMARK & BRANDING
+--------------------------------------------------------------------------------
+
+"VaeltrixAI", "VaeltrixLabs", and "RajaCoders" are names associated with
+this project. While the source code is licensed under MIT, the use of these
+names, logos, and branding for commercial products or services that could
+cause confusion with the original project is discouraged without prior
+permission from the copyright holders.
+
+--------------------------------------------------------------------------------
+CONTRIBUTION
+--------------------------------------------------------------------------------
+
+By submitting a contribution (pull request, issue, code, documentation, etc.)
+to this repository, you agree that your contribution will be licensed under
+the same MIT License as the rest of the project.
+
+--------------------------------------------------------------------------------
+CONTACT
+--------------------------------------------------------------------------------
+
+For questions regarding this license or the project:
+  GitHub : https://github.com/vaeltrixai/vaeltrix-ai
+  Issues : https://github.com/vaeltrixai/vaeltrix-ai/issues
+
+Thank you for using and supporting VaeltrixAI.
+Built with ❤️ by RajaCoders × VaeltrixLabs
+```
